@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    /* position: relative; */
   }
   
   section{
@@ -35,4 +36,27 @@
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+  footer:hover{
+    background-color: yellow ;
+  }
+  section:active{
+    background-color: #004643;
+  }
+  .centralizado{
+    text-align: center;
+  }
+  .canto{
+    /* position: relative;
+    top: 87.5%;
+    left: 84.8%; */
+    position: absolute;
+    bottom: 0%;
+    right: 10px;
+    margin-bottom: -45%;
+
+  }
+  nav{
+    position: sticky;
+    top: 0px;
   }
