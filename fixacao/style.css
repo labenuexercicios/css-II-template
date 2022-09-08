@@ -5,6 +5,7 @@
   body{
     font-family: sans-serif;
     background-color: #004643;
+    text-align: center;
   }
   
   header{
@@ -18,21 +19,31 @@
     margin: 10px;
   }
   
+  section:active{
+    background-color: red;
+    color: black;
+  }
   section{
     height: 120px;
     width: 180px;
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+    /* text-align: center; */
   }
   
   nav{
     padding: 20px;
-    background-color: white;
+    /* position: static; */
   }
   
+  footer:hover{
+   background-color: aqua;
+   color: azure;
+
+  }
   footer{
+    text-align: center;
     background-color: #abd1c6;
     padding: 20px;
-    text-align: center;
-  }
+    text-align: center;}
