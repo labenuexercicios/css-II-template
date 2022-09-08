@@ -1,0 +1,19 @@
+button:hover{
+    color: aliceblue;
+    background-color: red;
+    
+}
+
+button:active{
+    color: red;
+    background-color: pink;
+}
+
+button{
+    padding: 20px;
+
+}
+
+body{
+    text-align: center;
+}
