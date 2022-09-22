@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative
   }
   
   section{
@@ -25,7 +26,10 @@
     padding: 20px;
     margin: 10px 0;
   }
-  
+  .toda-tela-verde:active{
+    background-color: green;
+  }
+
   nav{
     padding: 20px;
     background-color: white;
@@ -35,4 +39,20 @@
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+  .amarelo:hover{
+    background-color: yellow;
+  }
+  .canto-direito-inferior{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .texto-centralizado{
+    text-align: center;
+  }
+
+  .nav{
+    position: sticky; top: 1px;
   }

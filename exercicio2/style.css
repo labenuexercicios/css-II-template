@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    border: 1px solid black;
+}
+/*
+unidades de medida relativas:
+
+width: 1200px
+
+vw = view witdh onde 1 = 1% da Tela
+vh = view height onde 1 = 1% da Tela
+1rem = 16px
+
+*/
+
+.altura-header{
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.altura-main{
+    height: 100vh;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    top: 200px;
+    position: relative;
+}
+
+.altura-footer{
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+}
+
+.caixa{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
