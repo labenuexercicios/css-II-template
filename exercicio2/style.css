@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    background-color: white;
+    border-bottom: 0.063rem black solid;
+    width:100vw;
+    padding: 0.625rem 1.75rem;
+    font-family: helvetica;
+    top:0%;
+    left: 0%;
+}
+
+main{
+    padding: 3.125rem 1.75rem;
+    font-family: helvetica;
+    text-align: center;
+}
+
+footer{
+    margin-top: 900px;
+    border-top: 0.063rem black solid;
+    padding: 0.625rem 1.75rem;
+    font-family: helvetica;
+}

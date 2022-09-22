@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:orange;
+}
+
+.texto-com-background{
+    background-color: #FFFE57;
+}
+
+#texto-com-outra-cor{
+    color: green;
+}
