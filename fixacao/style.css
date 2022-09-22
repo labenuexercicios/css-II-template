@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
   }
+
   body{
     font-family: sans-serif;
     background-color: #004643;
@@ -11,11 +12,13 @@
     padding: 20px;
     color: #abd1c6;
   }
+
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -25,14 +28,42 @@
     padding: 20px;
     margin: 10px 0;
   }
-  
+
+  .center{
+    text-align: center
+  }
+
+  .abs{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hvr:hover{
+    cursor: pointer;
+  }
+
+  .hvr:active{
+    background-color: green;
+    color: white;
+  }
+
   nav{
     padding: 20px;
     background-color: white;
+    position:sticky;
+    top:0;
+    width: 100%;
   }
   
   footer{
     background-color: #abd1c6;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer:hover{
+    background-color: yellow;
     padding: 20px;
     text-align: center;
   }
