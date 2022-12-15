@@ -10,6 +10,12 @@
   header{
     padding: 20px;
     color: #abd1c6;
+    height: 10vh;
+  }
+  nav{   
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
   }
   main{
     height: 1200px;
@@ -24,14 +30,36 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+      
   }
-  
+
+  main section:nth-child(2){
+    text-align: center;
+  }
+
+  aside{
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    right: 50px;
+  }
   nav{
     padding: 20px;
     background-color: white;
+    
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
   }
+
+  footer:hover{
+    background-color: yellow;
+  }
+
+  button:active{
+    background-color: green;
+  }
+  
+ 
