@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    top: 5px;
+    bottom: 90%;
+    left: 40%;
+    right: 40%;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+button:active{
+    background-color: #f72585;
+    color:black;
+}
+div {
+    width: 100%;
+    text-align: center;
+
+}

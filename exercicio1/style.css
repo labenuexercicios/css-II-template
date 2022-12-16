@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #fb8500;
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    color: #fb8500;
+    margin: 5px;
+    padding: 5px;
+}
+#texto-com-outra-cor{
+    background-color: yellow;
+    color:green;
+    width: 400px;
+}
+.texto-com-background{
+    background-color: yellow;
+    width: 400px;
+}
