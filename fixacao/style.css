@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position:relative;
   }
   
   section{
@@ -24,14 +25,33 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+    text-align: center;
   }
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
   }
+footer:hover{
+  background-color: orange;
+}
+
+button:active{
+  background-color:green;
+}
+
+aside{
+  position:absolute;
+  bottom: 0 ;
+  display: flex;
+  right: 20px;
+}
