@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* vh / vw / % / x
+
+vh ou vw = usa como referencia o tamnho do dispositivo
+
+% = pega diferença do elemento pai mais proximo
+
+x = */
+
+
+header {
+    background-color: lightcoral;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    
+    
+    
+}
+
+main {
+    background-color: lightblue;
+    height: 80vh;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgrey;
+    height: 10vh;
+    text-align: center;
+}
