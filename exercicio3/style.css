@@ -1,0 +1,37 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Move o texto dentro do botao*/
+body button{
+    text-align: center;
+}
+
+/* Move o botao */
+body {
+    text-align: right;
+}
+
+#teste{
+    text-align: left;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    height: 10vh;
+    font-weight: bold;
+    width:60vw ;
+    border: none;
+}
+
+button:hover{
+    background-color: #e74c3c;
+    color: white;
+    cursor:pointer;
+}
+
+button:active{
+    background-color: lightcoral;
+    color: red ;
+}

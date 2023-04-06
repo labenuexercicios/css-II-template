@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* VH ou VW X % => 
+
+VH ou VW => usa como referencia o tamanho do dispositivo 
+
+% => Pega a diferença do elemento pai/ancestral mais próximo
+
+*/
+
+header{
+    background-color: lightcoral;
+    height: 10vh;
+    width: 100vw;
+    position: sticky;
+    top:0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main{
+    background-color: lightblue;
+    height: 120vh;
+}
+
+footer{
+    background-color: lightgray;
+    height: 10vh;
+    width: 100vw;
+    position: sticky;
+    display: table-cell;
+    vertical-align: middle;
+}
