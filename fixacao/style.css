@@ -11,11 +11,24 @@
     padding: 20px;
     color: #abd1c6;
   }
+
+  nav{
+    position: sticky;
+    top: 0;
+  }
+
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+  }
+  aside{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
   }
   
   section{
@@ -25,7 +38,17 @@
     padding: 20px;
     margin: 10px 0;
   }
-  
+  .centralizado{
+    text-align: center;
+  }
+  .ficaverde:has(button:active){    
+    background-color: #004643;
+  }
+  /* o :has() é uma pseudoclasse lançada recentemente, que possibilita (sem o uso de JS) verificar a atividade de um elemento dentro da tag selecionada.
+!Não funciona ainda para todos os navegadores! 
+Doc: https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+*/
+    
   nav{
     padding: 20px;
     background-color: white;
@@ -34,4 +57,8 @@
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
+  }
+  footer:hover{
+    background: yellow;
   }
