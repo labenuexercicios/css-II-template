@@ -11,12 +11,15 @@
     padding: 20px;
     color: #abd1c6;
   }
+
+  
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
-  }
+     
+}
   
   section{
     height: 120px;
@@ -24,14 +27,35 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
-  }
+     }
   
+     .container {
+      text-align: center;
+     }
+
+     
+     .gaveta:active {
+      cursor: pointer;
+      transition: 0,6s;
+      background-color: green;
+      color: black;
+     }
+
+     main > aside {
+      position: absolute;
+      top: 145%;
+      right: 20px;
+     }
+
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
   }
   
-  footer{
-    background-color: #abd1c6;
+  footer:hover{
+    background-color: yellow;
     padding: 20px;
   }

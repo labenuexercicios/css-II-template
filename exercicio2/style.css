@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid black;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    top: 0;
+   
+}
+
+main {
+    border: 1px solid black;
+    height: 200vh;
+    margin-top: 10vh;
+    width: 100vw;
+    
+   
+}
+
+footer {
+    border: 1px solid black;;
+    position: relative;
+    height: 10vh;
+    bottom: 0;
+    width: 100vw;
+} 
