@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
   }
+
   body{
     font-family: sans-serif;
     background-color: #004643;
@@ -11,11 +12,13 @@
     padding: 20px;
     color: #abd1c6;
   }
+
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -24,14 +27,36 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+    
+  }
+
+  #nao-mudo-posicao{
+     text-align: center;
   }
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0px;
   }
+
+  aside{
+    background-color: gold;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+
+ button:active{
+   background-color: green;
+ }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+  }
+
+  footer:hover{
+    background-color: yellow;
   }
