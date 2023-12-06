@@ -1,0 +1,29 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: green;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+
+
+main{
+    background-color: blue;
+    height: 150vh;
+    margin-top: 10vh;
+}
+
+footer{
+    background-color: violet;
+    height: 10vh;
+    /* position: fixed;
+    bottom: 0px;
+    width: 100vw; */
+}
