@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 10vh;
+}
+
+main{
+    background-color: beige;
+    height: 80vh;
+}
+
+footer{
+    background-color: antiquewhite;
+    height: 10vh;
+}
